@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+.backGround{
+    border: 2px solid rgb(159, 165, 170);
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+    /* height: 80vh; */
+    background-color: rgb(159, 165, 170);
+}
+.card{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 35%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 80vh;
+    background-color: white;
+    position:relative;
+}
+.proPic{
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: white;
+    /* position:relative    ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.proPic img{
+    border: 2px solid white;
+    border-radius: 280px;
+    width:40%;
+}
+.content{
+    /* border: 2px solid green; */
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+.heading{
+    font-size:x-large;
+    text-align: center;
+}
+.heading hr{
+    width: 100%;
+    margin-top: 5%;
+}
+.linksContainer{
+    /* border:2px solid red; */
+    margin-top: 20px;
+}
+.linksContainer li{
+    /* border: 2px solid green; */
+    margin: 0px 0px 20px 0px;
+    list-style: none;
+    padding: 1px;
+}
+.linksContainer i{
+    font-size: 2rem;
+}
+.linksContainer a{
+    text-decoration: none;
+    color:lightslategray;
+}
+.linksContainer h3{
+    text-decoration: none;
+    color:lightslategray;
+    display: inline;
+    margin-left: 20px;
+    font-size: x-large;
+}
